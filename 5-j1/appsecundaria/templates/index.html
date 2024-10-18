@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">   
+    <title>Secundariaproyecto</title>
+
+    <h1>Daniel</h1>
+
+    <HR>
+        {% {% for i  in objeto  %}
+        <li> {{i.Nombres}}</li>
+        {% endfor %}%}
+    <HR>
+</head>
+<body>
+<script src="{% static 'script.js' %}"></script>
+</body>
+</html>
